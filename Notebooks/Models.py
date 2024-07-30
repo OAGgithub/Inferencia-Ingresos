@@ -1,10 +1,14 @@
-from sklearn.linear_model import BayesianRidge, LinearRegression, Ridge
+from sklearn.ensemble import AdaBoostRegressor
+from sklearn.linear_model import (BayesianRidge, Lasso, LinearRegression,
+                                  Ridge, ridge_regression)
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsRegressor
+from sklearn.neighbors import KNeighborsRegressor, NearestNeighbors
 from sklearn.neural_network import MLPRegressor
+from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import (MinMaxScaler, OneHotEncoder, OrdinalEncoder,
                                    StandardScaler)
+from sklearn.svm import SVR
 from sklearn.tree import DecisionTreeRegressor
 
 df_ministerio = df_ministerio.reset_index(drop=True)
