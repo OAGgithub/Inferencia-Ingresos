@@ -44,6 +44,4 @@ El proyecto utiliza diez modelos de machine learning diferentes, incluyendo:
 
 Cada modelo ha sido evaluado con métricas de rendimiento como Accuracy, Precisión, Recall, F1-Score y la curva ROC para comparar su eficacia.
 
-## Contribuciones
 
-Las contribuciones a este proyecto son bienvenidas. Si deseas colaborar, por favor sigue los siguientes pasos:
