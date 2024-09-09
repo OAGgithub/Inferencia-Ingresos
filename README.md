@@ -30,16 +30,22 @@ El proyecto está estructurado de la siguiente manera:
 
 Para ejecutar el análisis de datos y el entrenamiento del modelo, sigue los siguientes pasos:
 
-## Modelos Implementados
+Modelos Implementados
 
-El proyecto incluye la implementación de varios modelos de machine learning, entre los que destacan:
+El proyecto utiliza diez modelos de machine learning diferentes, incluyendo:
 
-- **Regresión Logística**
-- **Árboles de Decisión**
-- **Random Forest**
-- **Gradient Boosting**
+	1.	Regresión Logística
+	2.	Árboles de Decisión
+	3.	Random Forest
+	4.	Gradient Boosting
+	5.	K-Nearest Neighbors (KNN)
+	6.	SVM (Support Vector Machine)
+	7.	Naive Bayes
+	8.	Redes Neuronales Artificiales (MLPClassifier)
+	9.	XGBoost
+	10.	LightGBM
 
-Cada modelo es evaluado utilizando técnicas de validación cruzada y métricas como el Accuracy, Precisión, Recall, y la curva ROC.
+Cada modelo ha sido evaluado con métricas de rendimiento como Accuracy, Precisión, Recall, F1-Score y la curva ROC para comparar su eficacia.
 
 ## Contribuciones
 
