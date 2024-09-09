@@ -26,11 +26,8 @@ El proyecto está estructurado de la siguiente manera:
   - Jupyter Notebooks para el desarrollo interactivo y análisis exploratorio de datos.
   - Git para el control de versiones.
 
-## Uso
 
-Para ejecutar el análisis de datos y el entrenamiento del modelo, sigue los siguientes pasos:
-
-Modelos Implementados
+## Modelos Implementados
 
 El proyecto utiliza diez modelos de machine learning diferentes, incluyendo:
 
