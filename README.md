@@ -1,47 +1,44 @@
-# Inferencia Ingresos
+# Income Inference
 
-## Descripción del Proyecto
+## Project Description
 
-**Inferencia Ingresos** es un proyecto desarrollado para inferir los ingresos de individuos basado en diversas características demográficas y socioeconómicas. Utilizando técnicas de machine learning, este proyecto tiene como objetivo crear un modelo predictivo que pueda estimar si los ingresos de una persona superan o no un umbral específico (por ejemplo, $50,000 anuales). El proyecto incluye desde la recolección y procesamiento de datos, la selección y entrenamiento de modelos, hasta la evaluación de su rendimiento.
+**Income Inference** is a project developed to infer the income of individuals based on various demographic and socioeconomic characteristics. Using machine learning techniques, this project aims to create a predictive model that can estimate whether or not a person's income exceeds a specific threshold (e.g., $50,000 annually). The project includes everything from data collection and processing, model selection and training, to performance evaluation.
 
-## Estructura del Proyecto
+## Project Structure
 
-El proyecto está estructurado de la siguiente manera:
+The project is structured as follows:
 
-- **`datasets/`**: Contiene los conjuntos de datos utilizados para entrenar y probar los modelos.
-- **`notebooks/`**: Contiene notebooks de Jupyter que muestran el análisis exploratorio de datos, la limpieza de datos y los experimentos con diferentes modelos.
-- **`src/`**: Código fuente para el procesamiento de datos, construcción de modelos y evaluación.
-- **`models/`**: Almacena los modelos entrenados para su reutilización o evaluación posterior.
-- **`README.md`**: Este archivo que proporciona detalles sobre el proyecto.
+- **`datasets/`**: Contains the datasets used to train and test the models.
+- **`notebooks/`**: Contains Jupyter notebooks demonstrating exploratory data analysis, data cleaning, and experiments with different models.
+- **`src/`**: Source code for data processing, model building, and evaluation.
+- **`models/`**: Stores trained models for later reuse or evaluation.
+- **`README.md`**: This file provides details about the project.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **Lenguajes**: Python
-- **Librerías**:
-  - `pandas` para manipulación de datos.
-  - `numpy` para cálculos matemáticos.
-  - `scikit-learn` para la creación y evaluación de modelos de machine learning.
-  - `matplotlib` y `seaborn` para visualización de datos.
-- **Herramientas**:
-  - Jupyter Notebooks para el desarrollo interactivo y análisis exploratorio de datos.
-  - Git para el control de versiones.
+- **Languages**: Python
+- **Libraries**:
+- `pandas` for data manipulation.
+- `numpy` for mathematical calculations.
+- `scikit-learn` for creating and evaluating machine learning models.
+- `matplotlib` and `seaborn` for data visualization.
+- **Tools**:
+- Jupyter Notebooks for interactive development and exploratory data analysis.
+- Git for version control.
 
+## Implemented Models
 
-## Modelos Implementados
+The project uses ten different machine learning models, including:
 
-El proyecto utiliza diez modelos de machine learning diferentes, incluyendo:
+1. Logistic Regression
+2. Decision Trees
+3. Random Forest
+4. Gradient Boosting
+5. K-Nearest Neighbors (KNN)
+6. SVM (Support Vector Machine)
+7. Naive Bayes
+8. Artificial Neural Networks (MLPClassifier)
+9. XGBoost
+10. LightGBM
 
-	1.	Regresión Logística
-	2.	Árboles de Decisión
-	3.	Random Forest
-	4.	Gradient Boosting
-	5.	K-Nearest Neighbors (KNN)
-	6.	SVM (Support Vector Machine)
-	7.	Naive Bayes
-	8.	Redes Neuronales Artificiales (MLPClassifier)
-	9.	XGBoost
-	10.	LightGBM
-
-Cada modelo ha sido evaluado con métricas de rendimiento como Accuracy, Precisión, Recall, F1-Score y la curva ROC para comparar su eficacia.
-
-
+Each model has been evaluated using performance metrics such as Accuracy, Precision, Recall, F1-Score, and the ROC curve to compare its effectiveness.
